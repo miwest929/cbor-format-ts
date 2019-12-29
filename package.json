@@ -1,10 +1,11 @@
 {
-  "name": "msgpack-experiment",
+  "name": "cbor-format",
   "version": "0.1.0",
   "description": "Play around with the MessagePack library for Typescript",
   "author": "Michael West",
   "license": "MIT",
   "dependencies": {
+    "@types/text-encoding": "0.0.35",
     "text-encoding": "^0.7.0"
   }
 }

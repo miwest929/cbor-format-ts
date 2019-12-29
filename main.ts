@@ -5,8 +5,7 @@
 // of reading RFCs.
 
 // You may get a feel for the CBOR format by exploring http://cbor.me/
-//var textEncoding = require('text-encoding');
-//import * as textEncoding from 'text-encoding';
+import * as textEncoding from 'text-encoding'; // npm install --save @types/text-encoding
 
 type DecodedDataType = { nextIndex: number, decodedItem: any };
 type ConsumeFnType = (data: Uint8Array, idx: number) => DecodedDataType;
@@ -99,7 +98,7 @@ class CBOR {
     }
     
     private static toUtf8(data: Uint8Array): string {
-        return new TextDecoder('utf-8').decode(data);
+        return new textEncoding.TextDecoder('utf-8').decode(data);
     }
 }
 
