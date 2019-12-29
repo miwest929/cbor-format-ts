@@ -1,0 +1,10 @@
+{
+  "name": "msgpack-experiment",
+  "version": "0.1.0",
+  "description": "Play around with the MessagePack library for Typescript",
+  "author": "Michael West",
+  "license": "MIT",
+  "dependencies": {
+    "text-encoding": "^0.7.0"
+  }
+}
