@@ -2,8 +2,7 @@
     "compilerOptions": {
       "module": "commonjs",
       "outDir": "src/js",
-      "target": "es6",
-      "lib": ["es2017", "dom"]
+      "target": "es6"
     },
-    "include": ["main.ts"]
+    "include": ["main.ts", "src/app/**/*"]
   }
